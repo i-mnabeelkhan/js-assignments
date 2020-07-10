@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch (Assignment)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <span style="color: gray;opacity: 0.4;">By: Muhammad Nabeel Khan</span>
+        <div class="content">
+            <div class="counter">
+                <div id="hour" class="edit">00</div>
+                <div>:</div>
+                <div id="mins" class="edit">00</div>
+                <div>:</div>
+                <div id="secs" class="edit">00</div>
+                <div>:</div>
+                <div id="milli_sec" class="edit">00</div>
+            </div>
+            <div class="buttons">
+                <button onclick="start()" id="Start">Start</button>
+                <button onclick="stop()" id="Stop">Stop</button>
+                <button onclick="clr()" id="clr">Reset</button>
+            </div>
+        </div>
+</body>
+<script src="app.js"></script>
+
+</html>
